@@ -1,0 +1,126 @@
+---------- ESPAGUETIS A LA BOLOGNESA PARA 2 ----------
+
+1.	INICIO
+2.	    Dirigirse a la cocina
+        # Ingredientes
+3.	    ¿Cuento con los ingredientes?
+            • ½ libra de carne molida
+            • 250 gramos de espagueti
+            • 1 sobre de salsa bolognesa
+            • Sal
+            • Aceite
+            • Queso parmesano
+		    SI
+4.	 	        Saltar al paso #12
+		    NO
+5.	 	        Ir al supermercado a comprar los ingredientes que faltan
+6.	 	        ¿Encontró todos los ingredientes?
+	 	            SI
+7.                      Pagar en caja
+8.                      Regresar a casa
+9.		                Saltar al paso #12
+	 	            NO
+10.		                No se puede hacer los espaguetis
+11.		                Saltar al paso #73 (Fin receta)
+                    --Fin SI--
+            --Fin SI--
+	#Implementos de cocina
+12.     Ir a los gabinetes
+13.     Alistar los implementos
+            • Olla grande
+            • Sarten mediano  
+            • 1 cuchara
+            • Colador de espaguetis
+            • Licuadora
+            • Cuchara palo
+            • 2 platos de preferencia
+14.		¿Tengo todos implementos?
+		    SI
+15.		        ¿Están limpios los implementos?
+		            SI
+16.		                Pasar al paso #21
+		            NO
+17.		                Lavar lo que este sucio
+18.		                Secar lo que se lavo
+19.		                Pasar al paso #21
+                    --Fin SI--
+		    NO
+20.		        Saltar al paso #73 (Fin receta)
+            --Fin SI--
+     #Preparación espaguetis
+21.     Llenar la olla grande hasta la mitad de agua 
+22.     Hechar al agua media cuchara de sal 
+23.     Hechar al agua una cuchara de aceite
+24.     Encender estufa
+25.     Dejar el agua en la estufa hasta que el agua hierva
+26.     ¿Ya hirvio el agua?
+            SI
+27.             Ir al paso #30
+            NO
+28.             Revise constantemente
+29.             Repetir paso #26
+            --Fin SI--
+30.     Hechar los 250 gramos de espaguetis al agua
+31.     Dejar en estufa a fuego medio por 15 minutos
+32.     ¿Ya pasaron 15 minutos?
+            SI
+33.             Revisar que los espaguetis esten blanditos
+34.             ¿Espaguetis ya estan blanditos?
+                    SI
+35.                     Apagar estufa
+36.                     Poner colador de espaguetis en el lavaplatos
+37.                     Vaciar contenidos de la olla en el colador de espaguetis
+38.                     Abrir llave de agua fria encima del colador
+39.                     Dejar agua correr por 30 segundos
+40.                     Pasar al paso #43 
+                    No
+41.                     Repetir paso #34
+                    --Fin SI--
+            NO
+42.             Repetir paso 32
+            --Fin SI--
+    #Preparación salsa pasta
+43.     En la licuadora hechar contenido del sobre de salsa bolognesa
+44.     Seguir las instrucciones de preparación del sobre
+45.     Licuar contenidos por 30 segundos
+46.     ¿Ya paso 30 segundos?
+            SI
+47.             Apagar licuadora
+48.             Pasar al paso #50
+            NO
+49.             Repetir paso #55
+            --Fin SI--
+    #Preparación carne molida
+50.     En el sarten mediano hechar media cuchara de aceite
+51.     Encender fogon
+52.     Hechar la ½ libra de carne molida
+53.     Revolver constantemente contenidos con cuchara de palo hasta que la carne este bien dorada
+54.     ¿La carne esta dorada?
+            SI
+55.             Vaciar los contenidos licuados del paso 57 encima de la carne
+56.             Poner fogon en fuego bajo
+57.             Revolver constantemente
+58.             Dejar hervir
+59.             ¿Ya hirvio la salsa?
+                    SI
+60.                     Apagar fogon
+61.                     Vaciar espaguetis del escurridor en la olla grande (paso ##)
+62.                     Vaciar contenido de salsa con carne molida encima de la pasta
+63.                     Prender fogon con candela media
+64.                     Revolver constantemente con cuchara de palo hasta que la salsa empiece a hervir
+65.                     ¿Salsa esta hirviendo?
+                            SI
+66.                             Apagar fogon
+67.                             Pasar al paso #71
+                            NO
+68.                             Repetir paso #65
+                            --Fin SI--
+                    NO
+69.                     Repetir paso #59
+                    --Fin SI--
+            NO
+70.             Repetir paso #54
+            --Fin SI--
+71.     Servir espaguetis al gusto en plato de preferencia
+72.     Opcional hechar queso parmesano al gusto
+73. FIN
