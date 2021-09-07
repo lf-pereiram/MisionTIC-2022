@@ -36,13 +36,14 @@ public class CalculadoraBasica {
                 resp = num1 + num2;
                 msj = ""+num1+"+"+num2+"="+resp;
                 JOptionPane.showMessageDialog(null, msj);
+                System.out.println("El resultado es: "+(num1+num2));
                 break;
             case 2: 
                 num1 = Double.parseDouble(JOptionPane.showInputDialog(null,"Numero 1:"));
                 num2 = Double.parseDouble(JOptionPane.showInputDialog(null,"Numero 2:"));
 
                 resp = num1 - num2;
-                msj = ""+num1+"+"+num2+"="+resp;
+                msj = ""+num1+"-"+num2+"="+resp;
                 JOptionPane.showMessageDialog(null, msj);
                 break;
             case 3: 
@@ -50,7 +51,7 @@ public class CalculadoraBasica {
                 num2 = Double.parseDouble(JOptionPane.showInputDialog(null,"Numero 2:"));
 
                 resp = num1 * num2;
-                msj = ""+num1+"+"+num2+"="+resp;
+                msj = ""+num1+"*"+num2+"="+resp;
                 JOptionPane.showMessageDialog(null, msj);
                 break;
 
@@ -59,7 +60,7 @@ public class CalculadoraBasica {
                 num2 = Double.parseDouble(JOptionPane.showInputDialog(null,"Numero 2:"));
 
                 resp = num1 / num2;
-                msj = ""+num1+"+"+num2+"="+resp;
+                msj = ""+num1+"/"+num2+"="+resp;
                 JOptionPane.showMessageDialog(null, msj);
                 break;
 
@@ -68,7 +69,7 @@ public class CalculadoraBasica {
                 num2 = Double.parseDouble(JOptionPane.showInputDialog(null,"Numero 2:"));
 
                 resp = num1 % num2;
-                msj = ""+num1+"+"+num2+"="+resp;
+                msj = ""+num1+"%"+num2+"="+resp;
                 JOptionPane.showMessageDialog(null, msj);
                 break;
 
